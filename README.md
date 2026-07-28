@@ -1,51 +1,42 @@
-# Sites / Desenvolvimento WEB
+# Sites & Desenvolvimento Web
 
- ## Criação de Site, Visual Code / HTML / CSS / JavaScript / Bootstrap 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Sites/blob/main/Criando%20Sites.ipynb">1 - Criando um site com visual code</a></p>
-</div> 
+Repositório dedicado ao estudo e desenvolvimento de páginas web, cobrindo HTML, CSS, JavaScript e Bootstrap, além dos sites hospedados via GitHub Pages.
 
-#### ✨ Sites hospedados no github pages
+[← Voltar ao perfil](https://github.com/joycequoos)
 
-<div> 
-<p><a href="https://jositubaroski.github.io/">1 - Trilha de Estudos e Projetos em Dados</a></p>
-</div> 
+## Criação de Sites
 
-<div> 
-<p><a href="https://jositubaroski.github.io/API_GITHUB/">2 - Respositórios em Ordem Alfabetica</a></p>
-</div> 
+| Tópico | Recurso |
+|---|---|
+| VS Code / HTML / CSS / JS / Bootstrap | [Criando um site com Visual Studio Code](https://github.com/JosiTubaroski/Sites/blob/main/Criando%20Sites.ipynb) |
 
-#### ✨ Códigos dos sites hospedados no github pages
+## Sites Hospedados (GitHub Pages)
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/JosiTubaroski.github.io">1 - Códigos para páginas de repositórios de Estudos e Projetos em Dados</a></p>
-</div> 
+| Site | Descrição |
+|---|---|
+| [Trilha de Estudos e Projetos em Dados](https://jositubaroski.github.io/) | Página com a trilha completa de estudos em dados. |
+| [Repositórios em Ordem Alfabética](https://jositubaroski.github.io/API_GITHUB/) | Listagem de repositórios organizada alfabeticamente via API do GitHub. |
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/API_GITHUB/tree/main">2 - Códigos para páginas de respositórios em Ordem Alfabetica</a></p>
-</div> 
+## Código-fonte dos Sites Hospedados
 
-#### ✨ JavaScript
+| Recurso | Descrição |
+|---|---|
+| [Código da página de Estudos e Projetos em Dados](https://github.com/JosiTubaroski/JosiTubaroski.github.io) | Repositório-fonte do site principal hospedado no GitHub Pages. |
+| [Código da página de Repositórios em Ordem Alfabética](https://github.com/JosiTubaroski/API_GITHUB/tree/main) | Repositório-fonte da listagem alfabética, consumindo a API do GitHub. |
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Sites/tree/main/Exercicios_JavaScript_PrimeiraParte">1 - Execicios JavaScript Primeira Parte</a></p>
-</div> 
+## JavaScript
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Sites/tree/main/Exercicios_JavaScript_SegundaParte">2 - Execicios JavaScript Segunda Parte</a></p>
-</div> 
+| Recurso | Descrição |
+|---|---|
+| [Exercícios JavaScript — Parte 1](https://github.com/JosiTubaroski/Sites/tree/main/Exercicios_JavaScript_PrimeiraParte) | Exercícios práticos introdutórios de JavaScript. |
+| [Exercícios JavaScript — Parte 2](https://github.com/JosiTubaroski/Sites/tree/main/Exercicios_JavaScript_SegundaParte) | Continuação dos exercícios práticos de JavaScript. |
 
-#### ✨ Bootstrap
+## Bootstrap
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Bootstrap/tree/main">1 - O que é o bootstrap? O que são paginas responsivas? Exemplo de um código que cria uma tela de login com bootstrap </a></p>
-</div> 
+| Recurso | Descrição |
+|---|---|
+| [Fundamentos do Bootstrap e páginas responsivas](https://github.com/JosiTubaroski/Bootstrap/tree/main) | O que é o Bootstrap, o que são páginas responsivas e um exemplo prático de tela de login. |
 
+## Contato
 
-
-
-
-
-
-
- 
+Sugestões, dúvidas ou colaborações são bem-vindas — abra uma *issue* ou entre em contato pelo perfil do GitHub.
