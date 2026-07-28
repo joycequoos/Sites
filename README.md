@@ -8,34 +8,34 @@ Repositório dedicado ao estudo e desenvolvimento de páginas web, cobrindo HTML
 
 | Tópico | Recurso |
 |---|---|
-| VS Code / HTML / CSS / JS / Bootstrap | [Criando um site com Visual Studio Code](https://github.com/JosiTubaroski/Sites/blob/main/Criando%20Sites.ipynb) |
+| VS Code / HTML / CSS / JS / Bootstrap | [Criando um site com Visual Studio Code](https://github.com/joycequoos/Sites/blob/main/Criando%20Sites.ipynb) |
 
 ## Sites Hospedados (GitHub Pages)
 
 | Site | Descrição |
 |---|---|
-| [Trilha de Estudos e Projetos em Dados](https://jositubaroski.github.io/) | Página com a trilha completa de estudos em dados. |
-| [Repositórios em Ordem Alfabética](https://jositubaroski.github.io/API_GITHUB/) | Listagem de repositórios organizada alfabeticamente via API do GitHub. |
+| [Trilha de Estudos e Projetos em Dados](https://joycequoos.github.io/) | Página com a trilha completa de estudos em dados. |
+| [Repositórios em Ordem Alfabética](https://joycequoos.github.io/API_GITHUB/) | Listagem de repositórios organizada alfabeticamente via API do GitHub. |
 
 ## Código-fonte dos Sites Hospedados
 
 | Recurso | Descrição |
 |---|---|
-| [Código da página de Estudos e Projetos em Dados](https://github.com/JosiTubaroski/JosiTubaroski.github.io) | Repositório-fonte do site principal hospedado no GitHub Pages. |
-| [Código da página de Repositórios em Ordem Alfabética](https://github.com/JosiTubaroski/API_GITHUB/tree/main) | Repositório-fonte da listagem alfabética, consumindo a API do GitHub. |
+| [Código da página de Estudos e Projetos em Dados](https://github.com/joycequoos/joycequoos.github.io) | Repositório-fonte do site principal hospedado no GitHub Pages. |
+| [Código da página de Repositórios em Ordem Alfabética](https://github.com/joycequoos/API_GITHUB/tree/main) | Repositório-fonte da listagem alfabética, consumindo a API do GitHub. |
 
 ## JavaScript
 
 | Recurso | Descrição |
 |---|---|
-| [Exercícios JavaScript — Parte 1](https://github.com/JosiTubaroski/Sites/tree/main/Exercicios_JavaScript_PrimeiraParte) | Exercícios práticos introdutórios de JavaScript. |
-| [Exercícios JavaScript — Parte 2](https://github.com/JosiTubaroski/Sites/tree/main/Exercicios_JavaScript_SegundaParte) | Continuação dos exercícios práticos de JavaScript. |
+| [Exercícios JavaScript — Parte 1](https://github.com/joycequoos/Sites/tree/main/Exercicios_JavaScript_PrimeiraParte) | Exercícios práticos introdutórios de JavaScript. |
+| [Exercícios JavaScript — Parte 2](https://github.com/joycequoos/Sites/tree/main/Exercicios_JavaScript_SegundaParte) | Continuação dos exercícios práticos de JavaScript. |
 
 ## Bootstrap
 
 | Recurso | Descrição |
 |---|---|
-| [Fundamentos do Bootstrap e páginas responsivas](https://github.com/JosiTubaroski/Bootstrap/tree/main) | O que é o Bootstrap, o que são páginas responsivas e um exemplo prático de tela de login. |
+| [Fundamentos do Bootstrap e páginas responsivas](https://github.com/joycequoos/Bootstrap/tree/main) | O que é o Bootstrap, o que são páginas responsivas e um exemplo prático de tela de login. |
 
 ## Contato
 
