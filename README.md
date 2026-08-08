@@ -24,12 +24,7 @@ Repositório dedicado ao estudo e desenvolvimento de páginas web, cobrindo HTML
 | [Código da página de Estudos e Projetos em Dados](https://github.com/joycequoos/joycequoos.github.io) | Repositório-fonte do site principal hospedado no GitHub Pages. |
 | [Código da página de Repositórios em Ordem Alfabética](https://github.com/joycequoos/API_GITHUB/tree/main) | Repositório-fonte da listagem alfabética, consumindo a API do GitHub. |
 
-## JavaScript
 
-| Recurso | Descrição |
-|---|---|
-| [Exercícios JavaScript — Parte 1](https://github.com/joycequoos/Sites/tree/main/Exercicios_JavaScript_PrimeiraParte) | Exercícios práticos introdutórios de JavaScript. |
-| [Exercícios JavaScript — Parte 2](https://github.com/joycequoos/Sites/tree/main/Exercicios_JavaScript_SegundaParte) | Continuação dos exercícios práticos de JavaScript. |
 
 ## Bootstrap
 
