@@ -75,7 +75,7 @@ console.log(cor);
 Uso da função nativa `alert()` para exibir uma mensagem em uma janela pop-up, combinada com interpolação de variável em template string.
 
 ```javascript
-let nome = 'Josi';
+let nome = 'Joyce';
 alert(`Meu nome é ${nome}`);
 ```
 
