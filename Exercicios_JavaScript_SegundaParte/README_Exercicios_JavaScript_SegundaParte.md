@@ -1,6 +1,7 @@
-[← Voltar para Sites / Desenvolvimento Web](https://github.com/joycequoos/Sites/blob/main/README.md)
 
 # Exercícios JavaScript — Segunda Parte
+
+[← Voltar para Desenvolvimento Web](https://github.com/joycequoos/Development)
 
 Continuação dos [exercícios da Primeira Parte](https://github.com/joycequoos/Sites/tree/main/Exercicios_JavaScript_PrimeiraParte), agora avançando para funções nativas (built-in), estruturas condicionais, laços de repetição, funções próprias, escopo, closures, recursão, arrays e objetos.
 
