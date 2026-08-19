@@ -1,6 +1,7 @@
-[← Voltar para Sites / Desenvolvimento Web](https://github.com/joycequoos/Sites/blob/main/README.md)
 
 # Exercícios JavaScript — Primeira Parte
+
+[← Voltar para Desenvolvimento Web](https://github.com/joycequoos/Development)
 
 Exercícios práticos de fundamentos de JavaScript: tipos de dados, operadores, strings, booleanos, variáveis e palavras reservadas. Cada pasta contém um `index.html` e um `script.js` executável diretamente no navegador.
 
