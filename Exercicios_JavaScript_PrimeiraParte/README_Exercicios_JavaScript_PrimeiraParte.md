@@ -1,48 +1,47 @@
+# JavaScript Exercises — Part One
 
-# Exercícios JavaScript — Primeira Parte
+[← Back to Web Development](https://github.com/joycequoos/Development)
 
-[← Voltar para Desenvolvimento Web](https://github.com/joycequoos/Development)
+Practical exercises on JavaScript fundamentals: data types, operators, strings, booleans, variables, and reserved words. Each folder contains an `index.html` and a `script.js` that can be run directly in the browser.
 
-Exercícios práticos de fundamentos de JavaScript: tipos de dados, operadores, strings, booleanos, variáveis e palavras reservadas. Cada pasta contém um `index.html` e um `script.js` executável diretamente no navegador.
+## Table of Contents
 
-## Sumário
-
-- [01 — Compilando JavaScript Externo](#01--compilando-javascript-externo)
-- [02 — Tipos de Dados: Number](#02--tipos-de-dados-number)
-- [03 — Operações Aritméticas](#03--operações-aritméticas)
-- [04 — Números Especiais](#04--números-especiais)
-- [05 — Strings (Parte 1)](#05--strings-parte-1)
-- [06 — Strings (Parte 2)](#06--strings-parte-2)
+- [01 — Compiling External JavaScript](#01--compiling-external-javascript)
+- [02 — Data Types: Number](#02--data-types-number)
+- [03 — Arithmetic Operations](#03--arithmetic-operations)
+- [04 — Special Numbers](#04--special-numbers)
+- [05 — Strings (Part 1)](#05--strings-part-1)
+- [06 — Strings (Part 2)](#06--strings-part-2)
 - [07 — Boolean](#07--boolean)
-- [08 — Comparações Booleanas](#08--comparações-booleanas)
-- [09 — Operadores Lógicos](#09--operadores-lógicos)
-- [10 — Operador Ternário](#10--operador-ternário)
+- [08 — Boolean Comparisons](#08--boolean-comparisons)
+- [09 — Logical Operators](#09--logical-operators)
+- [10 — Ternary Operator](#10--ternary-operator)
 - [11 — Empty Values (null / undefined)](#11--empty-values-null--undefined)
-- [12 — Conversão Automática de Tipos](#12--conversão-automática-de-tipos)
-- [13 — Variáveis](#13--variáveis)
-- [14 — Variáveis: var, let, const](#14--variáveis-var-let-const)
-- [15 — Convenções de Nomes de Variáveis](#15--convenções-de-nomes-de-variáveis)
-- [16 — Palavras Reservadas](#16--palavras-reservadas)
+- [12 — Automatic Type Conversion](#12--automatic-type-conversion)
+- [13 — Variables](#13--variables)
+- [14 — Variables: var, let, const](#14--variables-var-let-const)
+- [15 — Variable Naming Conventions](#15--variable-naming-conventions)
+- [16 — Reserved Words](#16--reserved-words)
 
 ---
 
-## 01 — Compilando JavaScript Externo
+## 01 — Compiling External JavaScript
 
-[Ver pasta](./01_CompilarJS)
+[View folder](./01_CompilarJS)
 
-Primeiro contato com JavaScript rodando a partir de um arquivo externo (`.js`) importado no HTML, em vez de escrito direto na página. Mostra o uso básico do `console.log()` para exibir mensagens no console do navegador.
+First contact with JavaScript running from an external file (`.js`) imported into the HTML, instead of being written directly on the page. Shows basic use of `console.log()` to display messages in the browser console.
 
 ```javascript
-console.log('Javascript externo.');
+console.log('External JavaScript.');
 ```
 
 ---
 
-## 02 — Tipos de Dados: Number
+## 02 — Data Types: Number
 
-[Ver pasta](./02_Number)
+[View folder](./02_Number)
 
-Uso do operador `typeof` para identificar o tipo de um valor — número inteiro, número negativo, número decimal e string — mostrando como o JavaScript classifica cada um internamente.
+Use of the `typeof` operator to identify the type of a value — integer, negative number, decimal number, and string — showing how JavaScript classifies each one internally.
 
 ```javascript
 console.log(typeof 12);      // number
@@ -53,27 +52,27 @@ console.log(typeof '1.17');  // string
 
 ---
 
-## 03 — Operações Aritméticas
+## 03 — Arithmetic Operations
 
-[Ver pasta](./03_OperAritimeticas)
+[View folder](./03_OperAritimeticas)
 
-As cinco operações aritméticas básicas: soma, subtração, multiplicação, divisão e resto da divisão (módulo).
+The five basic arithmetic operations: addition, subtraction, multiplication, division, and remainder (modulo).
 
 ```javascript
-console.log(5 + 5);   // soma
-console.log(5 * 5);   // multiplicação
-console.log(5 - 5);   // subtração
-console.log(20 / 2);  // divisão
-console.log(10 % 2);  // resto (módulo)
+console.log(5 + 5);   // addition
+console.log(5 * 5);   // multiplication
+console.log(5 - 5);   // subtraction
+console.log(20 / 2);  // division
+console.log(10 % 2);  // remainder (modulo)
 ```
 
 ---
 
-## 04 — Números Especiais
+## 04 — Special Numbers
 
-[Ver pasta](./04_SpecialNumber)
+[View folder](./04_SpecialNumber)
 
-Introdução aos valores numéricos especiais do JavaScript: `Infinity`, `-Infinity` e `NaN` (*Not a Number* — usado quando uma operação matemática não resulta em um número válido).
+Introduction to JavaScript's special numeric values: `Infinity`, `-Infinity`, and `NaN` (*Not a Number* — used when a math operation doesn't result in a valid number).
 
 ```javascript
 console.log(Infinity);
@@ -83,45 +82,45 @@ console.log(NaN);
 
 ---
 
-## 05 — Strings (Parte 1)
+## 05 — Strings (Part 1)
 
-[Ver pasta](./05_Strings01)
+[View folder](./05_Strings01)
 
-As diferentes formas de declarar uma string em JavaScript — aspas simples, aspas duplas, aspas aninhadas (uma dentro da outra) e template strings (crase). Também reforça que `Infinity` pode ser tratado tanto como texto quanto como valor numérico especial.
+The different ways to declare a string in JavaScript — single quotes, double quotes, nested quotes (one inside the other), and template strings (backticks). Also reinforces that `Infinity` can be treated both as text and as a special numeric value.
 
 ```javascript
-console.log("Este é um texto");
-console.log('Este é um texto');
-console.log('Este é "um" texto');
-console.log("Este é 'um' texto");
-console.log(`Este é um texto`);
+console.log("This is text");
+console.log('This is text');
+console.log('This is "some" text');
+console.log("This is 'some' text");
+console.log(`This is text`);
 ```
 
 ---
 
-## 06 — Strings (Parte 2)
+## 06 — Strings (Part 2)
 
-[Ver pasta](./06_Strings02)
+[View folder](./06_Strings02)
 
-Recursos mais avançados de strings: quebra de linha com `\n`, interpolação de variáveis dentro de template strings (`${}`) e concatenação de textos com o operador `+`.
+More advanced string features: line breaks with `\n`, interpolating variables inside template strings (`${}`), and concatenating text with the `+` operator.
 
 ```javascript
-console.log("Este\n texto \n quebra\n a linha");
+console.log("This\n text \n breaks\n the line");
 
-let soma = 10 + 10;
-console.log(`A soma de 10 + 10 é ${soma}`);
+let sum = 10 + 10;
+console.log(`The sum of 10 + 10 is ${sum}`);
 
-console.log('String' + 'Concatenada');
-console.log('String ' + 'Concatenada ' + 'com ' + 'espaço');
+console.log('String' + 'Concatenated');
+console.log('String ' + 'Concatenated ' + 'with ' + 'space');
 ```
 
 ---
 
 ## 07 — Boolean
 
-[Ver pasta](./07_Boolean)
+[View folder](./07_Boolean)
 
-Introdução ao tipo booleano (`true` / `false`) e como expressões de comparação retornam automaticamente um valor booleano.
+Introduction to the boolean type (`true` / `false`) and how comparison expressions automatically return a boolean value.
 
 ```javascript
 console.log(true);
@@ -132,11 +131,11 @@ console.log(10 > 100); // false
 
 ---
 
-## 08 — Comparações Booleanas
+## 08 — Boolean Comparisons
 
-[Ver pasta](./08_CompBoolean)
+[View folder](./08_CompBoolean)
 
-Todos os operadores de comparação do JavaScript: maior que, menor que, maior ou igual, menor ou igual, igual (`==`), diferente (`!=`) e idêntico (`===` — compara valor **e** tipo).
+All of JavaScript's comparison operators: greater than, less than, greater than or equal to, less than or equal to, equal (`==`), not equal (`!=`), and strictly equal (`===` — compares both value **and** type).
 
 ```javascript
 console.log(10 > 5);              // true
@@ -145,79 +144,79 @@ console.log(100 >= 100);          // true
 console.log(100 <= 50);           // false
 console.log(50 == 50);            // true
 console.log('vinicius' != 'vinicius'); // false
-console.log('5' === 5);           // false — tipos diferentes (string vs number)
-console.log(5 === 5);             // true — mesmo valor e mesmo tipo
+console.log('5' === 5);           // false — different types (string vs number)
+console.log(5 === 5);             // true — same value and same type
 ```
 
 ---
 
-## 09 — Operadores Lógicos
+## 09 — Logical Operators
 
-[Ver pasta](./09_OpLogicos)
+[View folder](./09_OpLogicos)
 
-Os operadores lógicos `&&` (E), `||` (OU) usados para combinar múltiplas condições em uma única expressão booleana.
+The logical operators `&&` (AND) and `||` (OR) used to combine multiple conditions into a single boolean expression.
 
 ```javascript
-console.log(10 > 5 && 50 < 100);  // true — as duas condições são verdadeiras
-console.log(10 > 5 || 50 > 100);  // true — pelo menos uma condição é verdadeira
+console.log(10 > 5 && 50 < 100);  // true — both conditions are true
+console.log(10 > 5 || 50 > 100);  // true — at least one condition is true
 console.log((50 > 4));
 ```
 
 ---
 
-## 10 — Operador Ternário
+## 10 — Ternary Operator
 
-[Ver pasta](./10_OpTernario)
+[View folder](./10_OpTernario)
 
-Forma resumida de escrever uma condição `if/else` em uma única linha: `condição ? valorSeVerdadeiro : valorSeFalso`.
+A shorthand way of writing an `if/else` condition on a single line: `condition ? valueIfTrue : valueIfFalse`.
 
 ```javascript
-console.log(10 < 7 ? 'certo' : 'errado'); // 'errado'
+console.log(10 < 7 ? 'right' : 'wrong'); // 'wrong'
 ```
 
 ---
 
 ## 11 — Empty Values (null / undefined)
 
-[Ver pasta](./11_empyValues)
+[View folder](./11_empyValues)
 
-Introdução aos valores que representam "ausência de dado" em JavaScript: `null` (ausência intencional de valor) e `undefined` (variável ainda não definida).
+Introduction to the values that represent an "absence of data" in JavaScript: `null` (an intentional absence of a value) and `undefined` (a variable that hasn't been defined yet).
 
 ```javascript
-campoNome == null ? 'certo' : 'errado';
+nameField == null ? 'right' : 'wrong';
 ```
 
 ---
 
-## 12 — Conversão Automática de Tipos
+## 12 — Automatic Type Conversion
 
-[Ver pasta](./12_ConversaoAuto)
+[View folder](./12_ConversaoAuto)
 
-Demonstra a *coerção de tipos* — quando o JavaScript converte automaticamente um tipo de dado para outro ao executar uma operação, o que pode gerar resultados inesperados se não for bem entendido.
+Demonstrates *type coercion* — when JavaScript automatically converts one data type to another when performing an operation, which can produce unexpected results if not well understood.
 
 ```javascript
-console.log(10 * null);       // 0 — null vira 0 na multiplicação
-console.log("20" - 5);        // 15 — string numérica vira number na subtração
-console.log("20" + 5);        // "205" — number vira string na concatenação
-console.log('cinco' * 'cinco'); // NaN — texto não numérico não pode virar number
+console.log(10 * null);       // 0 — null becomes 0 in multiplication
+console.log("20" - 5);        // 15 — numeric string becomes a number in subtraction
+console.log("20" + 5);        // "205" — number becomes a string in concatenation
+console.log('five' * 'five'); // NaN — non-numeric text can't become a number
 ```
 
 ---
 
-## 13 — Variáveis
+## 13 — Variables
 
-[Ver pasta](./13_Variavel)
+[View folder](./13_Variavel)
 
-Declaração de variáveis com `let`, reatribuição de valor, uso em operações matemáticas, interpolação em template strings e declaração de múltiplas variáveis em uma única linha.
+Declaring variables with `let`, reassigning values, using them in math operations, interpolating them in template strings, and declaring multiple variables on a single line.
 
 ```javascript
-let preco = 5;
-console.log(preco);
-console.log(preco * preco);
-console.log(`O valor da sua compra foi de ${preco} reais`);
+let price = 5;
+console.log(price);
+console.log(price * price);
+console.log(`The value of your purchase was ${price} dollars`);
 
-preco = 10;
-console.log(`O valor da sua compra foi de ${preco} reais`);
+price = 10;
+console.log(`The value of your purchase was ${price} dollars`);
 
 let num1 = 1, num2 = 2, num3 = 3;
 console.log(num1 + num2 + num3);
@@ -225,53 +224,53 @@ console.log(num1 + num2 + num3);
 
 ---
 
-## 14 — Variáveis: var, let, const
+## 14 — Variables: var, let, const
 
-[Ver pasta](./14_Variaveis-2)
+[View folder](./14_Variaveis-2)
 
-Comparação entre as três formas de declarar variáveis em JavaScript: `var` (forma antiga), `let` (forma moderna, recomendada) e `const` (para valores que não podem ser reatribuídos).
+Comparing the three ways of declaring variables in JavaScript: `var` (the old way), `let` (the modern, recommended way), and `const` (for values that cannot be reassigned).
 
 ```javascript
-var variavel1 = 10;
-let variavel2 = 20;
-const variavel3 = 30; // não pode ser reatribuída depois
+var variable1 = 10;
+let variable2 = 20;
+const variable3 = 30; // cannot be reassigned later
 
-console.log(variavel1);
+console.log(variable1);
 ```
 
 ---
 
-## 15 — Convenções de Nomes de Variáveis
+## 15 — Variable Naming Conventions
 
-[Ver pasta](./15_conversaoVar)
+[View folder](./15_conversaoVar)
 
-Exemplos de nomes válidos e boas práticas para nomear variáveis em JavaScript: uso de `camelCase`, `$` e `_` como caracteres permitidos, e a regra de que nomes não podem começar com número.
+Examples of valid names and best practices for naming variables in JavaScript: using `camelCase`, `$` and `_` as allowed characters, and the rule that names cannot start with a number.
 
 ```javascript
 let $name = 'vinicius';
 let _name = 'vinicius';
 let Name = 'Vinicius';
-let nomeDeVariavelImput = 'vinicius';
-let nome$vinicius = 'vinicius';
+let inputVariableName = 'vinicius';
+let name$vinicius = 'vinicius';
 ```
 
 ---
 
-## 16 — Palavras Reservadas
+## 16 — Reserved Words
 
-[Ver pasta](./16_palavrasReservadas)
+[View folder](./16_palavrasReservadas)
 
-Lista de referência das palavras reservadas do JavaScript — termos que não podem ser usados como nomes de variáveis por já fazerem parte da sintaxe da linguagem (`if`, `for`, `function`, `return`, `class`, `let`, `var`, entre outras).
+A reference list of JavaScript's reserved words — terms that cannot be used as variable names because they're already part of the language's syntax (`if`, `for`, `function`, `return`, `class`, `let`, `var`, among others).
 
 ---
 
-## Principais aprendizados
+## Key Takeaways
 
-- Tipos primitivos do JavaScript (`number`, `string`, `boolean`, `null`, `undefined`) e como identificá-los com `typeof`
-- Operadores aritméticos, de comparação e lógicos
-- Diferentes formas de declarar strings, incluindo template strings e interpolação
-- Diferenças entre `var`, `let` e `const`, e por que `let`/`const` são preferíveis hoje
-- Conversão automática de tipos (coerção) e como ela pode gerar resultados inesperados
-- Boas práticas de nomenclatura de variáveis
+- JavaScript's primitive types (`number`, `string`, `boolean`, `null`, `undefined`) and how to identify them with `typeof`
+- Arithmetic, comparison, and logical operators
+- Different ways to declare strings, including template strings and interpolation
+- Differences between `var`, `let`, and `const`, and why `let`/`const` are preferred today
+- Automatic type conversion (coercion) and how it can produce unexpected results
+- Good practices for naming variables
 
-**Próximos passos:** estruturas condicionais (`if/else`, `switch`), estruturas de repetição (`for`, `while`) e funções — conteúdo provável da [Segunda Parte](https://github.com/joycequoos/Sites/tree/main/Exercicios_JavaScript_SegundaParte).
+**Next steps:** conditional structures (`if/else`, `switch`), loop structures (`for`, `while`), and functions — likely content of [Part Two](https://github.com/joycequoos/Sites/tree/main/Exercicios_JavaScript_SegundaParte).
