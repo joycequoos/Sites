@@ -1,131 +1,130 @@
+# Building a Website with Visual Studio Code
 
-# Criando um Site com Visual Studio Code
+[← Back to Web Development](https://github.com/joycequoos/Development)
 
-[← Voltar para Desenvolvimento Web](https://github.com/joycequoos/Development)
+Step-by-step guide to structuring a web project from scratch — HTML, CSS, and JavaScript — using Visual Studio Code and the Live Server extension.
 
-Passo a passo para estruturar um projeto web do zero — HTML, CSS e JavaScript — usando o Visual Studio Code e a extensão Live Server.
+Reference video: https://www.youtube.com/watch?v=fmhz4nqGK4E
 
-Vídeo de referência: https://www.youtube.com/watch?v=fmhz4nqGK4E
+## Table of Contents
 
-## Sumário
-
-- [1. Criar a pasta do projeto](#1-criar-a-pasta-do-projeto)
-- [2. Abrir a pasta no VS Code](#2-abrir-a-pasta-no-vs-code)
-- [3. Criar o arquivo index.html](#3-criar-o-arquivo-indexhtml)
-- [4. Gerar a estrutura básica do HTML](#4-gerar-a-estrutura-básica-do-html)
-- [5. Construir o conteúdo do HTML](#5-construir-o-conteúdo-do-html)
-- [6. Instalar a extensão Live Server](#6-instalar-a-extensão-live-server)
-- [7. Visualizar a página com o Live Server](#7-visualizar-a-página-com-o-live-server)
-- [8. Criar o arquivo CSS](#8-criar-o-arquivo-css)
-- [9. Criar o arquivo JavaScript](#9-criar-o-arquivo-javascript)
-- [10. Conectar CSS e JS ao HTML](#10-conectar-css-e-js-ao-html)
-- [11. Testar o projeto completo](#11-testar-o-projeto-completo)
-
----
-
-## 1. Criar a pasta do projeto
-
-Antes de abrir o VS Code, crie uma pasta no computador para guardar todos os arquivos do projeto.
-
-![Criar pasta do projeto](01_CriarPasta.GIF)
-
-**Exemplo de caminho:** `C:\API_GITHUB\javascript\GITHUB`
+- [1. Create the Project Folder](#1-create-the-project-folder)
+- [2. Open the Folder in VS Code](#2-open-the-folder-in-vs-code)
+- [3. Create the index.html File](#3-create-the-indexhtml-file)
+- [4. Generate the Basic HTML Structure](#4-generate-the-basic-html-structure)
+- [5. Build the HTML Content](#5-build-the-html-content)
+- [6. Install the Live Server Extension](#6-install-the-live-server-extension)
+- [7. View the Page with Live Server](#7-view-the-page-with-live-server)
+- [8. Create the CSS File](#8-create-the-css-file)
+- [9. Create the JavaScript File](#9-create-the-javascript-file)
+- [10. Connect CSS and JS to the HTML](#10-connect-css-and-js-to-the-html)
+- [11. Test the Complete Project](#11-test-the-complete-project)
 
 ---
 
-## 2. Abrir a pasta no VS Code
+## 1. Create the Project Folder
 
-Selecione essa pasta diretamente pelo Visual Studio Code (`File > Open Folder`), para que todos os arquivos do projeto fiquem organizados no explorador lateral.
+Before opening VS Code, create a folder on your computer to store all the project's files.
 
-![Selecionar a pasta no VS Code](02_Acessar_Pasta.GIF)
+![Create the project folder](01_CriarPasta.GIF)
 
----
-
-## 3. Criar o arquivo index.html
-
-Dentro da pasta do projeto, crie o arquivo principal da página: `index.html`.
-
-![Criar index.html](03_Index_HTML.GIF)
-
-O arquivo aparece na estrutura de pastas do projeto:
-
-![Arquivo criado na pasta](04_Arquivo_Pasta.GIF)
+**Example path:** `C:\API_GITHUB\javascript\GITHUB`
 
 ---
 
-## 4. Gerar a estrutura básica do HTML
+## 2. Open the Folder in VS Code
 
-O VS Code (via extensão Emmet, nativa do editor) permite gerar automaticamente o esqueleto padrão de um documento HTML. Basta digitar `!` e pressionar **Enter** dentro do arquivo `index.html`.
+Select this folder directly through Visual Studio Code (`File > Open Folder`), so that all the project's files are organized in the side explorer.
 
-![Gerando estrutura básica do HTML](05_Estrutura_BasicaHTML.GIF)
-
-Isso cria automaticamente as tags `<!DOCTYPE html>`, `<html>`, `<head>` e `<body>`, prontas para receber o conteúdo da página.
+![Select the folder in VS Code](02_Acessar_Pasta.GIF)
 
 ---
 
-## 5. Construir o conteúdo do HTML
+## 3. Create the index.html File
 
-Com a estrutura básica pronta, comece a adicionar o conteúdo da página dentro da tag `<body>` — títulos, parágrafos, imagens, links, listas etc.
+Inside the project folder, create the page's main file: `index.html`.
 
-![Começando a construção do HTML](06_Comecando_HTML.GIF)
+![Create index.html](03_Index_HTML.GIF)
 
----
+The file appears in the project's folder structure:
 
-## 6. Instalar a extensão Live Server
-
-O **Live Server** é uma extensão do VS Code que atualiza a página no navegador automaticamente a cada alteração salva no código — essencial para acompanhar o resultado em tempo real.
-
-![Buscar a extensão Live Server](07_Extensao.GIF)
-
-![Instalando a extensão](08_Instalando.GIF)
+![File created in the folder](04_Arquivo_Pasta.GIF)
 
 ---
 
-## 7. Visualizar a página com o Live Server
+## 4. Generate the Basic HTML Structure
 
-Depois de instalada, clique com o botão direito no `index.html` e selecione **"Open with Live Server"**.
+VS Code (via the Emmet extension, built into the editor) lets you automatically generate the standard skeleton of an HTML document. Simply type `!` and press **Enter** inside the `index.html` file.
 
-![Abrindo com Live Server](09_Open_LiveServer.GIF)
+![Generating the basic HTML structure](05_Estrutura_BasicaHTML.GIF)
 
-O navegador abre automaticamente exibindo a página HTML renderizada.
-
----
-
-## 8. Criar o arquivo CSS
-
-Para estilizar a página, crie um arquivo `.css` (ex: `style.css`) na mesma pasta do projeto — use `Ctrl + Click` sobre a pasta e depois **"New File"**.
-
-![Criando o arquivo CSS](10_Criar_Arquivo.GIF)
+This automatically creates the `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>` tags, ready to receive the page's content.
 
 ---
 
-## 9. Criar o arquivo JavaScript
+## 5. Build the HTML Content
 
-Da mesma forma, crie o arquivo `scripts.js` para adicionar interatividade à página.
+With the basic structure ready, start adding the page's content inside the `<body>` tag — headings, paragraphs, images, links, lists, and so on.
 
-![Criando o arquivo JavaScript](11_Criar_ArquivoJS.GIF)
-
-Use `Ctrl + Click` sobre a pasta e selecione **"Create File"** para confirmar a criação:
-
-![Selecionar Create File](12_Selecionar_CreateFile.GIF)
+![Starting to build the HTML](06_Comecando_HTML.GIF)
 
 ---
 
-## 10. Conectar CSS e JS ao HTML
+## 6. Install the Live Server Extension
 
-Criar os arquivos `style.css` e `scripts.js` não é suficiente — é preciso vinculá-los ao `index.html` para que o navegador realmente os carregue.
+**Live Server** is a VS Code extension that automatically refreshes the page in the browser every time you save a change to the code — essential for seeing the result in real time.
 
-**Vincular o CSS** — dentro da tag `<head>`:
+![Search for the Live Server extension](07_Extensao.GIF)
+
+![Installing the extension](08_Instalando.GIF)
+
+---
+
+## 7. View the Page with Live Server
+
+Once installed, right-click on `index.html` and select **"Open with Live Server"**.
+
+![Opening with Live Server](09_Open_LiveServer.GIF)
+
+The browser opens automatically, displaying the rendered HTML page.
+
+---
+
+## 8. Create the CSS File
+
+To style the page, create a `.css` file (e.g., `style.css`) in the same project folder — use `Ctrl + Click` on the folder and then **"New File"**.
+
+![Creating the CSS file](10_Criar_Arquivo.GIF)
+
+---
+
+## 9. Create the JavaScript File
+
+Similarly, create the `scripts.js` file to add interactivity to the page.
+
+![Creating the JavaScript file](11_Criar_ArquivoJS.GIF)
+
+Use `Ctrl + Click` on the folder and select **"Create File"** to confirm the creation:
+
+![Select Create File](12_Selecionar_CreateFile.GIF)
+
+---
+
+## 10. Connect CSS and JS to the HTML
+
+Creating the `style.css` and `scripts.js` files isn't enough — you need to link them to `index.html` so the browser actually loads them.
+
+**Linking the CSS** — inside the `<head>` tag:
 
 ```html
 <head>
   <meta charset="UTF-8">
-  <title>Meu Site</title>
+  <title>My Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
 ```
 
-**Vincular o JavaScript** — antes do fechamento da tag `</body>` (garante que o HTML já foi carregado antes do script rodar):
+**Linking the JavaScript** — right before the closing `</body>` tag (this ensures the HTML has already loaded before the script runs):
 
 ```html
   <script src="scripts.js"></script>
@@ -133,10 +132,10 @@ Criar os arquivos `style.css` e `scripts.js` não é suficiente — é preciso v
 </html>
 ```
 
-Com isso, a estrutura final do projeto fica:
+With this, the project's final structure looks like this:
 
 ```
-meu-projeto/
+my-project/
 ├── index.html
 ├── style.css
 └── scripts.js
@@ -144,29 +143,29 @@ meu-projeto/
 
 ---
 
-## 11. Testar o projeto completo
+## 11. Test the Complete Project
 
-Com os três arquivos conectados, abra o `index.html` novamente com o **Live Server** e confirme que:
+With the three files connected, open `index.html` again with **Live Server** and confirm that:
 
-- O estilo do `style.css` está sendo aplicado na página
-- Um `console.log()` de teste no `scripts.js` aparece no console do navegador (F12 → aba Console)
-- Qualquer alteração salva em qualquer um dos três arquivos atualiza a página automaticamente
+- The `style.css` styling is being applied to the page
+- A test `console.log()` in `scripts.js` shows up in the browser console (F12 → Console tab)
+- Any change saved to any of the three files updates the page automatically
 
 ```javascript
-// scripts.js — teste rápido de que o arquivo está conectado
-console.log('JavaScript conectado com sucesso!');
+// scripts.js — quick test to confirm the file is connected
+console.log('JavaScript successfully connected!');
 ```
 
-Se a mensagem aparecer no console, o projeto está com a estrutura completa e pronto para receber o conteúdo, estilo e interatividade reais do site.
+If the message appears in the console, the project has the complete structure and is ready to receive the site's actual content, styling, and interactivity.
 
 ---
 
-## Principais aprendizados
+## Key Takeaways
 
-- Organização de um projeto web do zero: pasta, HTML, CSS e JavaScript separados
-- Geração rápida de estrutura HTML com Emmet (`!` + Enter)
-- Uso do Live Server para visualização em tempo real durante o desenvolvimento
-- Vinculação correta de CSS (`<link>` no `<head>`) e JavaScript (`<script>` antes de `</body>`)
-- Verificação de que os arquivos estão de fato conectados via console do navegador
+- Organizing a web project from scratch: separate folder, HTML, CSS, and JavaScript
+- Quickly generating an HTML structure with Emmet (`!` + Enter)
+- Using Live Server for real-time preview during development
+- Correctly linking CSS (`<link>` in `<head>`) and JavaScript (`<script>` before `</body>`)
+- Verifying that the files are actually connected via the browser console
 
-**Próximos passos:** aprofundar em CSS (Flexbox, Grid, responsividade) e JavaScript (manipulação do DOM, eventos) para transformar essa estrutura básica em um site interativo completo.
+**Next steps:** dive deeper into CSS (Flexbox, Grid, responsiveness) and JavaScript (DOM manipulation, events) to turn this basic structure into a fully interactive website.
